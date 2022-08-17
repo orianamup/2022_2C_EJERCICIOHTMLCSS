@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: url(img/333950.jpg);
+    background-repeat: no-repeat;
+	background-size: cover
+}
+
+.personajes {
+    padding-top: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#titulo {
+    text-align: left;
+    padding-left: 20px;
+}
+
+h2 {
+    text-align: left;
+}
+
+.texto {
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+.izquierda {
+    float: left;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 50%;
+}
+
+.vermas:link {
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.vermas:hover {
+    text-decoration: underline;
+    color: red;
+    
+}
+
+.vermas:visited {
+    text-decoration: underline;
+    color: black;
+    
+}
+
+main {
+    width: 1024px;
+    background-color: rgb(255,255,255,0.5);
+    border: solid 2px black
+}
+
+h3 {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.derechos {
+    padding-top: 25px;
+}
+
+footer {
+    background-image: url(img/footer.jpg);
+    width: 1024px;
+    height: 320px;
+    background-repeat: no-repeat;
+	background-size: cover
+}
